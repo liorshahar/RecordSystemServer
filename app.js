@@ -26,7 +26,7 @@ app.use(function(req, res, next) {
 });
 
 app.use("/", indexRoute);
-app.use("/start", indexRoute);
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
